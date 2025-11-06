@@ -48,10 +48,6 @@ export default function TestimonialCard({ testimonial }: TestimonialCardProps) {
             <p className="font-semibold text-secondary-900">
               {testimonial.metadata.client_name}
             </p>
-            <p className="text-sm text-secondary-600">
-              {testimonial.metadata.position && `${testimonial.metadata.position}, `}
-              {testimonial.metadata.company}
-            </p>
           </div>
         </div>
       </div>
